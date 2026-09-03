@@ -65,7 +65,71 @@ La implementación de los requerimientos identificados de TechCup se desglosa de
 | Campo | Descripción |
 |------|-------------|
 | **ID** | TR-01 |
-| **Título** | |
+| **Título** | CONECTAR BASE DE DATOS AL SOFTWARE |
 | **ID de la Historia de Uso asociada** | HU-01 |
-| **Descripción** | *Como [tipo de usuario] quiero [necesidad o acción] para [beneficio u objetivo]* |
-| **Tareas requisito** | *Id de las tareas de las cuales es dependiente* |
+| **Descripción** | *Como desarrollador, quiero conectar la base de datos al software , para poder realizar consultas.*  |
+| **Tareas requisito** | *NINGUNA*|
+
+| Campo | Descripción |
+|------|-------------|
+| **ID** | TR-02 |
+| **Título** | *RECIBIR DATOS*|
+| **ID de la Historia de Uso asociada** | HU-01 |
+| **Descripción** | *Como desarrollador, quiero poder recibir datos, para poder realizar consultas en mi base de datos.*  |
+| **Tareas requisito** | *TR-01* |
+
+| Campo | Descripción |
+|------|-------------|
+| **ID** | TR-03 |
+| **Título** | *CONSULTA BASE DE DATOS*|
+| **ID de la Historia de Uso asociada** | HU-01 |
+| **Descripción** | *Como desarrollador, quiero poder realizar consultas, para poder realizar validaciones de datos.*  |
+| **Tareas requisito** | *TR-01* |
+
+| Campo | Descripción |
+|------|-------------|
+| **ID** | TR-04 |
+| **Título** | *PODER CREAR TORNEOS*|
+| **ID de la Historia de Uso asociada** | HU-02 |
+| **Descripción** | *Como desarrollador, quiero crear torneos en mi base de datos, para poder .incribir personas en mi torneo*  |
+| **Tareas requisito** | *TR-01,TR-03* |
+
+| Campo | Descripción |
+|------|-------------|
+| **ID** | TR-05 |
+| **Título** | *CONSULTAR ESTADO DE TORNEO ACTIVO*|
+| **ID de la Historia de Uso asociada** | HU-02 |
+| **Descripción** | *Como desarrollador, quiero crear un endpoint o consulta en la base de datos que busque y retorne únicamente el torneo que tenga el estado "Active", para saber si las inscripciones deben estar abiertas.*  |
+| **Tareas requisito** | *TR-01,TR-03* |
+
+| Campo | Descripción |
+|------|-------------|
+| **ID** | TR-06 |
+| **Título** | *BLOQUEO O HABILITACIÓN DE INTERFAZ DE REGISTRO*|
+| **ID de la Historia de Uso asociada** | HU-02 |
+| **Descripción** | *Como desarrollador, quiero implementar lógica en el frontend que consulte el torneo activo y, si no existe, bloquee la pantalla de registro mostrando un mensaje explicativo al usuario.*  |
+| **Tareas requisito** | *TR-05* |
+
+| Campo | Descripción |
+|------|-------------|
+| **ID** | TR-07 |
+| **Título** | *CREAR FORMULARIO DE REGISTRO DE EQUIPOS*|
+| **ID de la Historia de Uso asociada** | HU-03 |
+| **Descripción** | *Como desarrollador, quiero construir un formulario en la interfaz de usuario que permita ingresar el nombre del equipo y agregar dinámicamente los campos requeridos para los integrantes (respetando el mínimo y máximo de jugadores).*  |
+| **Tareas requisito** | *TR-06* |
+
+| Campo | Descripción |
+|------|-------------|
+| **ID** | TR-08 |
+| **Título** | *VALIDAR DUPLICADOS Y GUARDAR EQUIPO*|
+| **ID de la Historia de Uso asociada** | HU-03 |
+| **Descripción** | *Como desarrollador, quiero crear la lógica en el backend que reciba los datos del formulario, valide que ningún estudiante esté ya inscrito en otro equipo del mismo torneo, y finalmente guarde los datos en la base de datos.*  |
+| **Tareas requisito** | *TR-01, TR-02, ,TR-07* |
+
+| Campo | Descripción |
+|------|-------------|
+| **ID** | TR-09 |
+| **Título** | *VALIDACIÓN DE LÍMITES DE INTEGRANTES EN EL FRONTEND*|
+| **ID de la Historia de Uso asociada** | HU-03 |
+| **Descripción** | *Como desarrollador, quiero implementar validaciones en el formulario de registro para evitar que se envíen los datos si el número de integrantes es menor al mínimo requerido o mayor al máximo permitido, mostrando un mensaje de error con el rango válido.*  |
+| **Tareas requisito** | *TR-07* |
