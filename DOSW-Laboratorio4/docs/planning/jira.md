@@ -37,3 +37,9 @@ La implementación de los requerimientos identificados de Bankify se desglosa de
 ![Cronograma del proyecto](../imagenes/Cronograma.png)
 
 ### 5. Backlog:
+
+### 6. video poker
+
+<video src="../images/video_poker.mp4" width="100%" controls>
+</video>
+
