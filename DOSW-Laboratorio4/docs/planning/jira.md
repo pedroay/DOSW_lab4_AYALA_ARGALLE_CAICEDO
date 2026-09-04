@@ -6,9 +6,9 @@ La implementación de los requerimientos identificados de Bankify se desglosa de
 
 ### 1. Épica:
 
-![imagen del titulo y descripcion de jura](imagenes/titulo_jira.png)
+![imagen del titulo y descripcion de jura](../imagenes/titulo_jira.png)
 
-![fecha de finalizacion](imagenes/date_jira.png)
+![fecha de finalizacion](../imagenes/date_jira.png)
 
 
 
