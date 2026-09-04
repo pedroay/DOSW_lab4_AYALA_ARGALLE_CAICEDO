@@ -40,6 +40,7 @@ La implementación de los requerimientos identificados de Bankify se desglosa de
 
 ### 6. video poker
 
-<video src="../images/video_poker.mp4" width="100%" controls>
-</video>
+el video no dejo subirlo aca por el tamaño del archivo esta ubicado en la images
+
+
 
