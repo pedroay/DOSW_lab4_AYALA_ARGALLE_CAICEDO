@@ -39,7 +39,7 @@ La implementación de los requerimientos identificados de Bankify se desglosa de
 
 
 ### 5. SPRINT 1:
-![Sprint 1](../images/sprint1.png)
+![Sprint 1](../images/SPRINT_1.png)
 
 escogimos estas tareas para trabajar en este sprint ya que son las principales en nuestro pivote el scrum 13 y habiamos hablado que en puntos de historia no era tan grandes
 
