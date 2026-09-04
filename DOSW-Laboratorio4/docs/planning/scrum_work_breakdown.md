@@ -133,3 +133,27 @@ La implementación de los requerimientos identificados de TechCup se desglosa de
 | **ID de la Historia de Uso asociada** | HU-03 |
 | **Descripción** | *Como desarrollador, quiero implementar validaciones en el formulario de registro para evitar que se envíen los datos si el número de integrantes es menor al mínimo requerido o mayor al máximo permitido, mostrando un mensaje de error con el rango válido.*  |
 | **Tareas requisito** | *TR-07* |
+
+| Campo | Descripción |
+|------|-------------|
+| **ID** | TR-10 |
+| **Título** | *CREAR COMPONENTE DE ALERTA O MENSAJE DE ESTADO*|
+| **ID de la Historia de Uso asociada** | HU-04 |
+| **Descripción** | *Como desarrollador, quiero crear un componente en la interfaz que reciba la respuesta del proceso de registro y muestre al usuario un mensaje de confirmación exitosa (incluyendo nombre de equipo y torneo) o un mensaje de error si el proceso falla.*  |
+| **Tareas requisito** | *TR-08* |
+
+| Campo | Descripción |
+|------|-------------|
+| **ID** | TR-11 |
+| **Título** | *IMPLEMENTAR RESPUESTAS DE ÉXITO Y ERROR EN BACKEND*|
+| **ID de la Historia de Uso asociada** | HU-04 |
+| **Descripción** | *Como desarrollador, quiero asegurar que el endpoint de registro devuelva la información detallada (nombre del equipo y torneo) cuando el registro es exitoso, y un código de error claro si falla, para que el frontend pueda procesarlo.*  |
+| **Tareas requisito** | *TR-08* |
+
+| Campo | Descripción |
+|------|-------------|
+| **ID** | TR-12 |
+| **Título** | *CREAR CONSULTA Y VISTA DE EQUIPOS INSCRITOS*|
+| **ID de la Historia de Uso asociada** | HU-04 |
+| **Descripción** | *Como desarrollador, quiero implementar una consulta a la base de datos y una vista para los organizadores, de manera que puedan ver el listado actualizado de los equipos registrados en el torneo activo.*  |
+| **Tareas requisito** | *TR-03, TR-08* |
